@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+loguru = "*"
+sqlalchemy = "*"
+uvicorn = "*"
+
+[dev-packages]
+flake8 = "*"
+flake8-bugbear = "*"
+mypy = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-html = "*"
+pytest-mock = "*"
+isort = "*"
+black = "*"
+
+[requires]
+python_version = "3.10"
